@@ -4,27 +4,32 @@
     margin: 0;
     padding: 0;
 }
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-height: 100vh;
 }
+
 .left-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #80CBC4;
 }
+
 .illustration{
     width: 525px;
     height: 330px;
     margin: 296px 0 34px 0;
     background: url(undraw_pair_programming_njlp.png);
 }
+
 .text-content{
     text-align: center;
     padding: 20px;
 }
+
 .text-content h1{
     font-family: Cairo;
     font-style: normal;
@@ -33,6 +38,7 @@
     line-height: 90px;
     color: #004D40;
 }
+
 .text-content h4{
     font-family: Karla;
     font-style: normal;
@@ -43,12 +49,14 @@
     color: #000000;
     padding: 0 50px;
 }
+
 .right-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .right-content h1{
     font-family: Shrikhand;
     font-style: normal;
@@ -57,6 +65,7 @@
     color: #009688;
     margin: 110px 0 96px 0;
 }
+
 .form-content{
     display: flex;
     flex-direction: column;
@@ -70,6 +79,7 @@
     color: #80CBC4;
     margin-bottom: 35px;
 }
+
 .form-content h2{
     font-family: Karla;
     font-style: normal;
@@ -79,6 +89,7 @@
     color: #80CBC4;
     margin-bottom: 71px;
 }
+
 span{
     align-self: flex-end;
     font-family: Roboto;
@@ -88,6 +99,7 @@ span{
     line-height: 23px;
     color: #80CBC4;
 }
+
 input[type=text], input[type=password]{
     background: #FFFFFF;
     border: 4px solid #00695C;
@@ -102,6 +114,7 @@ input[type=text], input[type=password]{
     font-size: 24px;
     color: #80CBC4;
 }
+
 input[type=submit]{
     background: #009688;
     border-radius: 40px;
@@ -117,15 +130,19 @@ input[type=submit]{
     cursor: pointer;
     margin-bottom: 77px;
 }
+
 input[type=text]{
     margin-bottom: 35px;
 }
+
 input[type=password]{
     margin-bottom: 15px;
 }
+
 span{
     margin-bottom: 22px;
 }
+
 .google-signup p{
     display: flex;
     flex-direction: column;
@@ -143,14 +160,17 @@ span{
     left: 40%;
     text-align: center;
 }
+
 .border{
     border-top: 1px solid #009688;
     margin-bottom: 65px;
 }
+
 #google-logo{
     font-size: 35px;
     padding: 5px;
 }
+
 .google-signup input[type=button]{
     background: none;
     border: none;

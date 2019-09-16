@@ -11,8 +11,15 @@
 }
 .left-content{
     display: flex;
+    flex-direction: column;
     align-items: center;
     background: #80CBC4;
+}
+.illustration{
+    width: 525px;
+    height: 330px;
+    margin: 296px 0 34px 0;
+    background: url(undraw_pair_programming_njlp.png);
 }
 .text-content{
     text-align: center;
@@ -47,9 +54,8 @@
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
-    line-height: 70px;
     color: #009688;
-    margin-bottom: 96px;
+    margin: 110px 0 96px 0;
 }
 .form-content{
     display: flex;
@@ -60,17 +66,15 @@
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
-    line-height: 42px;
     text-align: center;
     color: #80CBC4;
-    margin-bottom: 77px;
+    margin-bottom: 35px;
 }
 .form-content h2{
     font-family: Karla;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
-    line-height: 42px;
     text-align: center;
     color: #80CBC4;
     margin-bottom: 71px;
@@ -96,7 +100,6 @@ input[type=text], input[type=password]{
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 28px;
     color: #80CBC4;
 }
 input[type=submit]{
@@ -108,8 +111,11 @@ input[type=submit]{
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    line-height: 35px;
     color: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 77px;
 }
 input[type=text]{
     margin-bottom: 35px;
@@ -119,16 +125,6 @@ input[type=password]{
 }
 span{
     margin-bottom: 22px;
-}
-.google-signup input[type=button]{
-    background: none;
-    border: none;
-    font-family: Karla;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
-    color: #80CBC4;
 }
 .google-signup p{
     display: flex;
@@ -149,8 +145,21 @@ span{
 }
 .border{
     border-top: 1px solid #009688;
-    margin-bottom: 25px;
+    margin-bottom: 65px;
 }
 #google-logo{
     font-size: 35px;
+    padding: 5px;
+}
+.google-signup input[type=button]{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #80CBC4;
 }

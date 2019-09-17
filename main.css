@@ -8,7 +8,8 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
+    max-width: 100%;
 }
 
 .left-content{
@@ -19,10 +20,14 @@
 }
 
 .illustration{
-    width: 525px;
-    height: 330px;
+    width: 395px;
+    height: 200px;
     margin: 296px 0 34px 0;
     background: url(undraw_pair_programming_njlp.png);
+}
+
+img {
+    margin-top: 150px;
 }
 
 .text-content{
@@ -35,7 +40,6 @@
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 90px;
     color: #004D40;
 }
 
@@ -61,9 +65,9 @@
     font-family: Shrikhand;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 40px;
     color: #009688;
-    margin: 110px 0 96px 0;
+    margin: 80px 0 40px 0;
 }
 
 .form-content{
@@ -72,22 +76,23 @@
     justify-content: center;
     align-items: center;
     font-family: Karla;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    font-size: 16px;
     text-align: center;
     color: #80CBC4;
-    margin-bottom: 35px;
+    margin-bottom: 16px;
+
 }
 
 .form-content h2{
     font-family: Karla;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
     color: #80CBC4;
-    margin-bottom: 71px;
+    margin-bottom: 35px;
 }
 
 span{
@@ -102,33 +107,33 @@ span{
 
 input[type=text], input[type=password]{
     background: #FFFFFF;
-    border: 4px solid #00695C;
+    border: 3px solid #00695C;
     box-sizing: border-box;
-    border-radius: 5px;
-    width: 480px;
-    height: 72px;
+    border-radius: 7px;
+    width: 400px;
+    height: 60px;
     padding: 10px;
-    font-family: Roboto;
+    font-family: karla;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     color: #80CBC4;
 }
 
 input[type=submit]{
     background: #009688;
     border-radius: 40px;
-    width: 290px;
-    height: 72px;
-    font-family: Roboto;
+    width: 200px;
+    height: 45px;
+    font-family: karla;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     color: #FFFFFF;
     outline: none;
     border: none;
     cursor: pointer;
-    margin-bottom: 77px;
+    margin-bottom: 50px;
 }
 
 input[type=text]{
@@ -149,7 +154,7 @@ span{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 28px;
     color: #80CBC4;
     background-color: #fff;
@@ -163,11 +168,15 @@ span{
 
 .border{
     border-top: 1px solid #009688;
-    margin-bottom: 65px;
+
+    /*margin-bottom: 30px;*/
+}
+.border p {
+
 }
 
 #google-logo{
-    font-size: 35px;
+    font-size: 30px;
     padding: 5px;
 }
 
@@ -179,7 +188,12 @@ span{
     font-family: Karla;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 18px;
+    /*line-height: 35px;*/
     color: #80CBC4;
 }
+
+#passforget {
+    font-size: 14px;
+}
+

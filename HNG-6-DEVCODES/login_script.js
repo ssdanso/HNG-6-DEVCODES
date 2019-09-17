@@ -3,8 +3,8 @@
 		let isValid = false;
 
 		const validCredentials = { 
-			user: { email: 'ssdanso@live.com', password: '123abc', username: 'SSD' },
-			user: { email: 'devcodes@gmail.com', password: 'abc123', username: 'devcodes' }
+			user1: { email: 'ssdanso@live.com', password: '123abc', username: 'SSD' },
+			user2: { email: 'devcodes@gmail.com', password: 'abc123', username: 'devcodes' }
 		};
 
 		document.getElementById('loginBtn').onclick = function() {

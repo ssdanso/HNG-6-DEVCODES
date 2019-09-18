@@ -27,9 +27,9 @@
     background: url(undraw_pair_programming_njlp.png);
     background-repeat: no-repeat;
 }
+
 .illustration1{
-    background: url(undraw_confirmation_2uy0.png);
-    background-repeat: no-repeat;
+    width: 525px;
 }
 
 .text-content{
@@ -189,6 +189,7 @@ input[type=password], select {
     margin-top: 50px;
     margin-bottom: 0px;
 }
+
 hr {
     width: 40%
 }
@@ -196,3 +197,9 @@ hr {
     font-size: 24px; 
     text-decoration: none;
 }
+.left-name{
+    font-family: Shrikhand;
+    font-size: 36px;
+    color: #009688;
+}
+

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Karla|Roboto|Shrikhand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left-content{
+  left: 0;
+  background-color: #80CBC4;
+  overflow: hidden;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.illustration{
+    width: 525px;
+    height: 330px;
+    background: url(undraw_pair_programming_njlp.png);
+    background-repeat: no-repeat;
+}
+
+.illustration1{
+    width: 525px;
+}
+
+.text-content{
+    text-align: center;
+    padding: 20px;
+}
+
+.text-content h1{
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #004D40;
+}
+
+.text-content p{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.right-content{
+  right: 0;
+  background-color: #fff;
+}
+
+.right-content h1{
+    font-family: Shrikhand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #009688;
+}
+
+.form-content{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #80CBC4;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.form-content h2{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #80CBC4;
+    margin-bottom: 80px;
+    text-decoration: none;
+}
+
+.name{
+    text-align:center; 
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+span{
+    align-self: flex-end;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #80CBC4;
+}
+
+input[type=text], input[type=password]{
+    background: #FFFFFF;
+    border: 2px solid #00695C;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 400px;
+    height: 60px; 
+    padding: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #80CBC4;
+}
+
+input[type=text], select {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #00695C;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+
+input[type=password], select {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #00695C;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.f-password{
+    margin-bottom: 22px;
+    font-size: 20px;
+    text-align: right;
+    color: #80CBC4;
+    text-decoration: none;
+}
+
+.google-signup p{
+    font-family: Roboto;
+
+}
+
+
+
+.signin{
+  background-color: #009688;
+  border: none;
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  border-radius: 50px;
+  font-family: Karla;
+  font-weight: bold;
+}
+
+.input{
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.input1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+hr {
+    width: 40%
+}
+.google-signup{
+    font-size: 24px; 
+    text-decoration: none;
+}
+.left-name{
+    font-family: Shrikhand;
+    font-size: 36px;
+    color: #009688;
+}
+

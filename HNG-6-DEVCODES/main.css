@@ -148,6 +148,14 @@ input[type=password], select {
   box-sizing: border-box;
 }
 
+.signup{
+    font-size: 22px;
+    text-align: center;
+    color: #80CBC4;
+    margin-top: 20px;
+    font-family: Roboto;
+}
+
 .f-password{
     margin-bottom: 22px;
     font-size: 20px;
@@ -182,7 +190,7 @@ input[type=password], select {
 }
 
 .input{
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 0px;
 }
 .input1{

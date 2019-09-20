@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Devcodes - Signup</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/util/index.js"></script>
+    <script src="js/storage.localstorage.js"></script>
+    <script src="js/signup.js"></script>
+</head>
+
+<body>
+    <div class="">
+        <div class="split left-content">
+            <div class="centered">
+                <div class="illustration"></div>
+                <div class="text-content">
+                    <h1>Team DevCodes</h1>
+                    <p>Dev Codes is a team of developers from HNG
+                        Internship working assiduously together to
+                        become worldclass devs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="split right-content">
+        <div id="errorBox"></div>
+        <h1 class="name">
+            <center>DevCodes</center>
+        </h1>
+        <form name="signup" class="form-content" action="">
+            <h2>Signup</h2>
+            <div id="validationError">
+            </div>
+            <div class="centered input1">
+                <input id="userName" type="text" name="uname" placeholder="Username" required>
+                <input id="emailS" type="text" name="eml" placeholder="email" required>
+                <input id="pswd" type="password" name="psd" placeholder="Password" required>
+                <input id="pswd_conf" type="password" name="psd_conf" placeholder="Confirm Password" required>
+                <a id="signUpBtn" class="signUp" onclick="submit()">Sign Up</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

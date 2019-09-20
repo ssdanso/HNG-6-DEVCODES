@@ -1,4 +1,5 @@
-#Team Dev Code Contributors
+#Team DevCodes 
+#Contributors
 
 ### Samuel Olumide Oluwole  ~ @OlumideSamuel  ~	Designer / Frontend Developer
 

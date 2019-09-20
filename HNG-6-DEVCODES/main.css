@@ -5,25 +5,31 @@
     padding: 0;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: 100vh;
+.left-content{
+  left: 0;
+  background-color: #80CBC4;
+  overflow: hidden;
 }
 
-.left-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #80CBC4;
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 .illustration{
     width: 525px;
     height: 330px;
-    /* margin: 296px 0 34px 0; */
     background: url(undraw_pair_programming_njlp.png);
+    background-repeat: no-repeat;
+}
+
+.illustration1{
+    width: 525px;
 }
 
 .text-content{
@@ -35,25 +41,22 @@
     font-family: Cairo;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 48px;
     color: #004D40;
 }
 
-.text-content h4{
+.text-content p{
     font-family: Karla;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
-    line-height: 26px;
     text-align: center;
     color: #000000;
-    padding: 0 50px;
 }
 
 .right-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  right: 0;
+  background-color: #fff;
 }
 
 .right-content h1{
@@ -62,21 +65,23 @@
     font-weight: normal;
     font-size: 36px;
     color: #009688;
-    margin: 40px 0 50px 0;
 }
 
 .form-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: Karla;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     text-align: center;
     color: #80CBC4;
-    padding: 10px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .form-content h2{
@@ -86,7 +91,14 @@
     font-size: 30px;
     text-align: center;
     color: #80CBC4;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+
+.name{
+    text-align:center; 
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 span{
@@ -99,109 +111,126 @@ span{
     color: #80CBC4;
 }
 
-input[type=text], input[type=email], input[type=password]{
-    width: 400px;
-    height: 35px;
-    font-family: Roboto;
-    margin: 12px 0;
-    padding: 10px;
-    display: inline-block;
+input[type=text], input[type=password]{
+    background: #FFFFFF;
     border: 2px solid #00695C;
+    box-sizing: border-box;
     border-radius: 5px;
+    width: 400px;
+    height: 60px; 
+    padding: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
     font-size: 20px;
     color: #80CBC4;
-    font-weight: normal;
-    outline: none;
 }
 
-input[type=submit]{
-    background: #009688;
-    border-radius: 40px;
-    width: 240px;
-    height: 52px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    color: #FFFFFF;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0 10px 0;
+input[type=text], select {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #00695C;
+  border-radius: 4px;
+  box-sizing: border-box;
+
 }
 
-input[type=text]{
-    margin-bottom: 8px;
-}
 
-input[type=password]{
-    margin-bottom: 8px;
-}
-
-.confirm-pass{
-    margin-bottom: 50px;
-}
-
-span{
-    margin-bottom: 22px;
-}
-
-.google-signup p{
-    display: flex;
-    flex-direction: column;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #80CBC4;
-    background-color: #fff;
-    width: 45px;
-    height: 35px;
-    position: relative;
-    top: -15px;
-    left: 40%;
-    text-align: center;
-}
-
-.border{
-    border-top: 1px solid #009688;
-    margin-bottom: 3S5px;
-}
-
-.google-signup input[type=button]{
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-family: Karla;
-    font-style: normal;
-    font-size: 24px;
-    color: #80CBC4;
-    cursor: pointer;
+input[type=password], select {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #00695C;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .signup{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #80CBC4;
-    margin: 20px 0 0 0;
-}
-.success{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-size: 22px;
     text-align: center;
+    color: #80CBC4;
+    margin-top: 20px;
+    font-family: Roboto;
 }
 
-@media screen and (max-width:785px){
-    .container{
-        grid-template: none;
-    }
-    .left-content{
-        display: none;
-    }
+.f-password{
+    margin-bottom: 22px;
+    font-size: 20px;
+    text-align: right;
+    color: #80CBC4;
+    text-decoration: none;
 }
+
+.google-signup p{
+    font-family: Roboto;
+
+}
+
+
+
+.signin{
+  background-color: #009688;
+  border: none;
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  border-radius: 50px;
+  font-family: Karla;
+  font-weight: bold;
+}
+
+.signUp{
+    background-color: #009688;
+    border: none;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-family: Karla;
+    font-weight: bold;
+  }
+
+.input{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.input1{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+hr {
+    width: 40%
+}
+.google-signup{
+    font-size: 24px; 
+    text-decoration: none;
+}
+.left-name{
+    font-family: Shrikhand;
+    font-size: 36px;
+    color: #009688;
+}
+
+#errorBox{
+    color:#F00;
+    margin-top: 10px;
+    text-align: center;
+    }

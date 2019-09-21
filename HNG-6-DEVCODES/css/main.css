@@ -24,7 +24,7 @@
 .illustration{
     width: 525px;
     height: 330px;
-    background: url("img/undraw_pair_programming_njlp.png");
+    background: url(../img/undraw_pair_programming_njlp.png);
     background-repeat: no-repeat;
 }
 
@@ -154,6 +154,7 @@ input[type=password], select {
     color: #80CBC4;
     margin-top: 20px;
     font-family: Roboto;
+    cursor: pointer;
 }
 
 .f-password{
@@ -187,6 +188,7 @@ input[type=password], select {
   border-radius: 50px;
   font-family: Karla;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .signUp{
@@ -234,3 +236,6 @@ hr {
     margin-top: 10px;
     text-align: center;
     }
+#validationError {
+    color: #F00;
+}
